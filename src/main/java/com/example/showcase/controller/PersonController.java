@@ -27,5 +27,4 @@ import java.util.List;
         loginService.checkToken(token);
         return new ResponseEntity<>(repository.findAll(), HttpStatus.OK);
     }
-
 }
